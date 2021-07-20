@@ -1,0 +1,9 @@
+My first idea is an classic banking application.
+I chose this application because there are multiple services that can follow a microservice architecture. 
+
+
+My second idea is a way to purchase lottery tickets. There would essentially be a buyer and deliverer section of the app.
+This application would have to follow a lot of government compliance.
+This application can also follow a microservice archietcutre because there are multiple processes that can scale.
+For example, if the powerball lottery is a high winnings, developers would scale up.
+There are some processes such as billing, account CRUD, deliverer, buyer, location services, etc.
