@@ -1,0 +1,17 @@
+Why did your group choose the architecture for this application?
+	We decided to go with a microservice architecture due to what the app would contain. 
+the app would contain a database that holds the customers data and would need some sort of SNS system that would alert the customer when it is there turn in line.
+The app would also contain an api gateway to handle requests plus some sort of payment system for when they are gonna check out the item.
+
+What is the application?
+	The application is basically an app where basically you can have someone wait in line for you.
+Basically when theres a line for an item you want to get you can request for a person to come and wait in line for you to get the item.
+The person waiting in line for you would basically let you know when they get to the end of the line and let you know if they were able to get an item.
+If the person does get the item they would basically give the requester their requested item.
+Once everything has been done the app will grab the payment info of the requesters and process it + charge them service fee's + tax + whatever other charges that will be agreed upon before they made the request.
+
+Features that have been agreed upon...
+	The features we agreed upon are the following...
+		- Customer Database (would hold payment info/name/address/etc)
+		- Sns for making requests and queing + letting the customer know of any status updates
+		- Api gateway for handling the customers request
