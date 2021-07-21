@@ -1,6 +1,0 @@
-My idea is a waiting in line application. I don't like waiting in line sometimes and I wish that there was someone that could wait in the line for me at a Target or Marshalls. Sometimes these lines could be really long and I could be using my time shopping instead of just waiting in line.
-The way this app would work for the end user is that a request will be made on the app for the someone to wait in line. A person who is at a nearby location would see it, similar to how ride sharing apps work, except it's more passive push updates instead of active finding.
-When the person gets to the location, a QR code exchange happens to mark a start of the time waited and then a scan of that code would mark the end.
-The request rates are based on location, time, availability and how long the line is.
-
-For application build, it would be a microservice. Requiring customer database, SNS for requests and queing, and API gateway for requests. There will also need to be a payment system.
